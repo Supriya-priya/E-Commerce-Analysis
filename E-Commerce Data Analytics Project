@@ -1,0 +1,133 @@
+# 📦 E-Commerce Data Analytics Project
+
+An end-to-end analytics project leveraging **SQL**, **Excel**, and **Power BI** to transform raw e-commerce data into powerful business insights. The project explores sales trends, customer behaviors, profit margins, and operational inefficiencies, and visualizes them using interactive dashboards.
+
+---
+
+## 🚀 Project Objectives
+
+- Extract and analyze key sales and customer metrics
+- Track sales performance and delivery timelines
+- Identify product bundling patterns and regional trends
+- Build interactive dashboards for stakeholder reporting
+- Enable data-driven decision-making through clean visuals
+
+---
+
+## 🧰 Tools & Technologies Used
+
+| Tool      | Purpose                                          |
+|-----------|--------------------------------------------------|
+| **SQL**   | Data extraction, joins, filtering, and aggregation |
+| **Excel** | Pivot tables and charting from SQL results       |
+| **Power BI** | Advanced dashboard design & visual interaction |
+
+---
+
+## 🗃️ Data Source
+
+The dataset simulates an e-commerce business database with the following key tables:
+
+- **Orders**
+- **Customers**
+- **Products**
+- **Sales**
+
+---
+
+## 🧮 SQL Query Modules
+
+Each query was designed to answer a specific business question:
+
+1. **Credit Limit Monitoring**  
+   → Retrieve customer credit limits to assess financial exposure.
+
+2. **Late Shipping Detection**  
+   → Identify orders delivered past the requested date.
+
+3. **Over Credit Limit**  
+   → Flag customers exceeding their allocated credit limits.
+
+4. **Sales by Region**  
+   → Aggregate office sales by customer country.
+
+5. **Frequently Bought Together**  
+   → Discover product combinations that are often purchased together.
+
+6. **Country-Level Sales Summary**  
+   → Provide performance snapshots by region.
+
+7. **Sales Value Variation**  
+   → Track change in order value from one purchase to the next.
+
+---
+
+## 📊 Excel-Based Analysis
+
+The SQL query results were exported to Excel for charting and further analysis. Pivot charts were created for each query to quickly visualize:
+
+- Credit Limit Distributions
+- Impact of Late Shipments
+- High-Risk Credit Customers
+- Regional Sales Performance
+- Product Bundling Patterns
+- Country Sales Comparison
+- Order-to-Order Sales Value Changes
+
+---
+
+## 📈 Power BI Dashboards
+
+### ✅ **Dashboard 1 – Sales & Profit Overview**
+
+Key Visuals:
+
+- **Clustered Bar Chart**: Sales & profit by product line
+- **Scatter Plot**: Profit vs sales by cost
+- **Donut Chart**: Performance by office country
+- **Stacked Column Chart**: Country-wise breakdown
+- **Cards**: Total Sales | Unique Orders | Avg. Order Value
+- **Trend Lines**: Time series per region
+- **Slicers**: Filter by Order Date & Product Line
+- **Toggle Buttons**: Switch between Sales / Net Profit views
+
+---
+
+### 💰 **Dashboard 2 – Net Profit Breakdown**
+
+In-depth view of profitability and performance:
+
+- **Decomposition Tree**: Drill down Net Profit by Country → Product Line → Customer
+- **Sales Table**:
+  - Fields: Year, Month, Sales Value, MoM %, YTD Value
+- **Page Navigation**: Toggle buttons to switch between dashboard pages
+
+---
+
+## 🧭 How to Use This Project
+
+1. **Prepare the Database**  
+   Ensure the e-commerce dataset is loaded and accessible via MySQL or SQL Server.
+
+2. **Run SQL Queries**  
+   Execute analysis queries and export the results.
+
+3. **Analyze in Excel**  
+   Import query results and create pivot charts.
+
+4. **Build Dashboards in Power BI**  
+   - Load data
+   - Follow structured steps for visuals, slicers, bookmarks, and toggles
+
+5. **Explore & Present**  
+   Use slicers and toggles to gain insights and deliver presentations to stakeholders.
+
+---
+
+## 📝 Conclusion
+
+This project demonstrates how powerful insights can be extracted by combining **SQL logic**, **Excel charting**, and **Power BI visual storytelling**. From financial oversight to sales trend tracking and delivery performance, the dashboards equip business users with the tools to act on data confidently.
+
+> 📂 For SQL scripts, Excel files, and `.pbix` reports, refer to the corresponding folders in this repository.
+
+---
